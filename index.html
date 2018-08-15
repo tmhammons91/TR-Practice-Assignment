@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>TH TR Sample Project</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootswatch/4.1.2/flatly/bootstrap.min.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+  <a class="navbar-brand" href="#">AUTHENTICAL.info</a>
+
+  <div class="collapse navbar-collapse" id="navbarColor01">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active nav-menu-item">
+        <a class="nav-link" href="#">TrustRadius Practice Assignment<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item nav-menu-item">
+        <a class="nav-link" href="#overview">Overview</a>
+      </li>
+      <li class="nav-item nav-menu-item">
+        <a class="nav-link" href="#products">Products</a>
+      </li>
+    </ul>
+   <!--
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2 search-input" type="text" placeholder="Search">
+      <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
+    </form>-->
+  </div>
+</nav>
+
+<div class="container-fluid">
+
+    <div class="row">   
+      <button type="button" class="btn btn-secondary" id="content-button">View Content</button>
+      <button type="button" class="btn btn-secondary" id="sources-button">View Strategy and Sources</button>
+    </div>      
+
+  <div class="row topic-content">
+  	<div class="col-sm-10">     
+  		<div class="well well-sm">
+      <h2 id="overview">Software Defined Storage Overview</h2> <br>
+        <h4>What is Software Defined Storage (SDS)? </h4> 
+        <p> Software defined storage (SDS) is defined at the most basic level as a type of storage solution where software is used to manage and control data storage independently from the underlying hardware.  SDS solutions abstract the physical aspect of storage, thus allowing systems to be built using industry-standard hardware components.  The storage environment is provisioned and managed programmatically through software APIs rather than hardware-based controllers.
+        </p>
+
+        <p>Software defined storage is just one element in a trend toward “software defined everything.”  Related concepts and product categories include software defined networks, software defined computing, software defined architecture, and software defined data centers.  While definitions of these vary and often overlap, they are all part of an ongoing decoupling of software development from the physical infrastructure.  The benefits of this trend in general and of software defined storage solutions in particular include flexibility in hardware choice, cost efficiencies in being able to use commodity components, ease of scalability, elasticity, and dynamic provisioning.
+        </p><br>
+
+        <p>
+        <h4>Software Defined Storage Features &amp; Capabilities</h4>
+          <p>
+            <ul>
+            <li><strong>Ability to use with commodity, industry-standard hardware:</strong> SDS solutions are not tied to proprietary hardware products or to one specific hardware vendor</li>
+            <li><strong>API integrated:</strong> storage is dynamically configured and managed through software interfaces</li>
+            <li><strong>Supports dynamic resource utilization:</strong> SDS solutions allow for resource utilization to be matched to resource needs; storage can grow and shrink as needed</li>
+            <li><strong>Support for a full range of storage services:</strong> allows for compression, data deduplication, and virtualization, and supports block, file, and object storage interfaces</li>
+            <li><strong>Utility-based billing:</strong> Enables a model where users pay only for what they need and what they use</li>
+            <li><strong>Suitability for very large storage environments:</strong> SDS solutions are effective for dynamic, multi-tenant environments</li>
+
+        </ul></p>
+        </p>
+      </div>
+  	</div>
+ </div>
+
+  <div class="row topic-content">
+    <div class="col-sm-10">     
+      <div class="well well-sm">
+      <h2 id="products">Software Defined Storage Products</h2> <br>
+       <h4>Product Offerings From Leading Storage Vendors and Manufacturers</h4>
+        <p><ul>
+          <li><strong>Dell EMC:</strong> ScaleIO</li>
+          <li><strong>NetApp:</strong> ONTAP Select <br>
+            <p>ONTAP Select is a software defined storage solution from NetApp, one of the largest vendors in the data center market. ONTAP Select is based on NetApp’s original ONTAP software. It can be deployed on a range of commodity hardware components or used on the existing server infrastructure within an organization’s own data center.  It promises the agility of cloud storage in that it can be quickly and easily deployed for remote locations or proof-of-concept project environments, but with the security and control of traditional on-premises storage.  Licensing is done on a per-node/per-virtual machine basis.</p>
+          <li><strong>HPE (Hewlett Packard Enterprise):</strong> StoreVirtual</li>
+          <li><strong>Hitachi:</strong> VSP (Virtual Storage Platform)</li>
+          <li><strong>IBM:</strong> Spectrum Storage Suite</li>
+
+
+        </ul></p>
+      </div>
+    </div>   
+  </div>
+
+  <div class="row sources-strategy hide">
+    <div class="col-sm-10">     
+      <div class="well well-sm">
+      <h2>Research/Content Strategy and Sources</h2> <br>
+       
+       <h4>Strategy</h4>
+       <p>I chose this category for a very practical reason—I have a personal contact who has many years of experience with storage area networks and data centers and who was willing to provide an informal research interview on the topic.  I began my research with this interview and continued it with various articles and websites.  For the top 5 products, I chose to define “top” as being from the leading/largest vendors in the storage manufacturing space since some sources highlighted the fact that most of the leading vendors have jumped on the SDS bandwagon over the last several years.  (From my research, I'm certain that there are several other ways the "tops" could be defined, such as top start-up vendors, top open-source SDS vendors, etc.)  I followed up with my interviewee to get the names of the leading/largest storage vendors, and I then searched out the basic information on their SDS offerings.</p><br>
+
+       <h4>Sources*</h4>
+
+        <p>Hammons, Matthew, VP of Operations, OnRamp, https://www.onr.com/. “What Can You Tell Me About Software Defined Storage?” Interview by Terri M. Hammons. August 2018.</p> 
+
+        <p>Larry Coyne, Joe Dain, et al.  IBM Software-Defined Storage Guide.  IBM Redbooks, 2018.  Accessed at  https://books.google.com/books?id=kfBlDwAAQBAJ&dq=definition+software+defined+storage&source=gbs_navlinks_s</p>
+
+        <p>Laz Vekiarides, 5 Bitter truths about Software-Defined Storage.  InfoWorld, Oct 27, 2015.  Accessed at https://www.infoworld.com/article/2997239/storage/5-bitter-truths-about-software-defined-storage.html</p>
+
+        <p>Evan Koblentz.  When not to get software-defined storage.  TechRepublic, April 27, 2018.  https://www.techrepublic.com/article/when-not-to-get-software-defined-storage-and-what-to-do-if-you-must-get-it/</p>
+
+        <p>Simon Robinson, Software-defined storage: The reality beneath the hype.  ComputerWeekly.com.  March 2013.  https://www.computerweekly.com/opinion/Software-defined-storage-The-reality-beneath-the-hype</p>
+
+        <p>Anne Taylor, Storage Without Limits.  NetworkWorld "BrandPost", Sponsored by Tech Data Hewlett Packard Enterprise, AUG 8, 2018, https://www.networkworld.com/article/3295879/storage/sds-running-storage-like-it-s-an-application.html</p>
+
+        <p>Cynthia Harvey.  Top Software Defined Storage Vendors.  Enterprise Storage Forum.  March 2018.  http://www.enterprisestorageforum.com/storage-technology/top-software-defined-storage-vendors.html</p>
+
+        <p>Software-Defined Storage Products: IT Pros Offer Insight. Network Computing/IT Central Station. 06/01/2017. https://www.networkcomputing.com/storage/software-defined-storage-products-it-pros-offer-insight/421963134. </p>
+
+        <p>Evans, Barry. "Defining Software-Defined Storage." TVB Europe (January 2016): Computer Source, EBSCOhost (accessed August 14, 2018).</p>
+
+        <p>Evans, Chris. 2018. "LATEST INNOVATIONS IN SOFTWARE-DEFINED STORAGE."  Computer Weekly 24-27.  Computer Source, EBSCOhost (accessed August 14, 2018).</p>
+
+        <p>Violino, Bob. 2015. "The Benefits of Software-Defined Technology."  CIO Insight 2.  Computer Source, EBSCO host (accessed August 14, 2018).</p>
+
+        <p>Software Defined Storage For Dummies, IBM Platform Computing Edition.  John Wiley & Sons, Inc. c2014.  Accessed at ftp://ftp.networking.ibm.com/la/documents/stg/storage/TSW03232ESES-SWGdefinedStorage_IBM.pdf</p>
+
+        <p>Yevgeniy Sverdlik.  EMC and NetApp - a software defined storage battle.  Data Center Dynamics, July 2013.  http://www.datacenterdynamics.com/content-tracks/servers-storage/emc-and-netapp-a-software-defined-storage-battle/81318.fullarticle</p>
+
+        <p>NetApp.  ONTAP Select Data Sheet.  https://www.netapp.com/us/media/ds-3769.pdf.  Accessed 8/14/18. </p> 
+
+        <p>IBM. Spectrum Storage Suite.  https://www.ibm.com/us-en/marketplace/software-defined-storage. Accessed 8/14/18. </p> 
+        <p>HPE.  StoreVirtual Storage.  https://www.hpe.com/us/en/storage/storevirtual.html.  Accessed 8/14.18.</p> 
+
+        <strong>*Citations are in no particular order and pledge allegiance to no particular style (just very, very loosely follow Chicago style).</strong> 
+      </div>
+    </div>      
+ </div>
+
+</div>
+
+<footer class="container-fluid text-center" id="siteFooter">
+  <a href="#top" title="To Top">
+    <span class="glyphicon glyphicon-chevron-up"></span>
+  </a>
+  <p> Website &copy;2018 Terri Hammons | Authentical.Info </p>
+</footer>
+
+<script src="https://code.jquery.com/jquery-3.1.1.js"></script>
+
+<!-- Script -->
+<script type="text/javascript" src="tr-page.js"></script>
+
+</body>
+</html>

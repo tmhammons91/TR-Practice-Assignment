@@ -1,0 +1,41 @@
+
+.container-fluid {
+    padding: 10px 40px; 
+}
+
+.row {
+	padding-bottom: 10px;
+	/*border-bottom: 3px;
+	border-bottom-style: solid;  */
+}
+
+.nav-menu-item {
+	padding-right:20px
+}
+.well {
+	background-color: white;
+	margin: 12px;
+	position: relative;
+    min-height: 1px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-top-color: #6DABFD !important;
+    border-top-width: 2px !important;
+}
+
+.btn-secondary {
+	margin-left: 29px;
+	padding-left: 10px;
+    padding-right: 10px;
+}
+
+.hide {
+
+  display: none; }
+
+body {
+	background-color: #EBEBF0;
+}
+
+.navbar {
+	background-color: #141A68 !important; 
